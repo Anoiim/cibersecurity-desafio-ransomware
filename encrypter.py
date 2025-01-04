@@ -22,7 +22,7 @@ if os.path.exists(file_name):
         with open(new_file, 'wb') as new_file:
             new_file.write(decrypt_data)
 
-        print("arquivo desencriptado")
+        print("arquivo encriptado")
     except Exception as e:
         print(f"Erro ao processar o arquivo: {e}")
 else:
